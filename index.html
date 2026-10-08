@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kardels Properties | Find Your Perfect Property</title>
+
+    <meta name="description" content="Kardels Properties - Find homes, apartments, land and commercial properties.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+<header class="navbar" id="navbar">
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">K</span>
+            <span>Kardels<span class="logo-highlight">Properties</span></span>
+        </a>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#properties" class="nav-link">Properties</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+            <a href="#contact" class="nav-button">List Your Property</a>
+
+        </nav>
+
+        <button class="menu-button" id="menuButton" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+
+<section class="hero" id="home">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <span class="hero-tag">
+                FIND YOUR PLACE
+            </span>
+
+            <h1>
+                Find a Place
+                <br>
+                <span>You Can Call Home.</span>
+            </h1>
+
+            <p>
+                Discover beautiful homes, apartments, land and commercial
+                properties with Kardels Properties.
+            </p>
+
+        </div>
+
+
+        <!-- Search Box -->
+
+        <div class="search-box">
+
+            <div class="search-item">
+                <label>Location</label>
+
+                <select id="locationFilter">
+                    <option value="all">All Locations</option>
+                    <option value="Thimphu">Thimphu</option>
+                    <option value="Paro">Paro</option>
+                    <option value="Punakha">Punakha</option>
+                    <option value="Phuentsholing">Phuentsholing</option>
+                </select>
+            </div>
+
+
+            <div class="search-item">
+                <label>Property Type</label>
+
+                <select id="typeFilter">
+                    <option value="all">All Types</option>
+                    <option value="House">House</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="Land">Land</option>
+                    <option value="Commercial">Commercial</option>
+                </select>
+            </div>
+
+
+            <div class="search-item">
+                <label>Purpose</label>
+
+                <select id="purposeFilter">
+                    <option value="all">Buy or Rent</option>
+                    <option value="Sale">For Sale</option>
+                    <option value="Rent">For Rent</option>
+                </select>
+            </div>
+
+
+            <button class="search-button" id="searchButton">
+                Search
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+        <div class="stat">
+            <strong class="counter" data-target="250">0</strong>
+            <span>Properties</span>
+        </div>
+
+        <div class="stat">
+            <strong class="counter" data-target="180">0</strong>
+            <span>Happy Clients</span>
+        </div>
+
+        <div class="stat">
+            <strong class="counter" data-target="8">0</strong>
+            <span>Years Experience</span>
+        </div>
+
+        <div class="stat">
+            <strong class="counter" data-target="12">0</strong>
+            <span>Locations</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section properties-section" id="properties">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-tag">OUR PROPERTIES</span>
+
+                <h2>
+                    Featured Properties
+                </h2>
+            </div>
+
+            <p>
+                Explore some of our latest properties available for
+                sale and rent.
+            </p>
+
+        </div>
+
+
+        <div class="property-grid" id="propertyGrid">
+
+            <!-- Property 1 -->
+
+            <article class="property-card"
+                data-location="Thimphu"
+                data-type="House"
+                data-purpose="Sale">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80"
+                        alt="Modern house">
+
+                    <span class="property-status">For Sale</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">House</span>
+
+                    <h3>Modern Family Residence</h3>
+
+                    <p class="property-location">
+                        📍 Thimphu, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>🛏 4 Beds</span>
+                        <span>🚿 3 Baths</span>
+                        <span>📐 2,400 ft²</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 18,500,000</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Modern Family Residence">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property 2 -->
+
+            <article class="property-card"
+                data-location="Paro"
+                data-type="Apartment"
+                data-purpose="Rent">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80"
+                        alt="Luxury apartment">
+
+                    <span class="property-status rent">For Rent</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">Apartment</span>
+
+                    <h3>Luxury City Apartment</h3>
+
+                    <p class="property-location">
+                        📍 Paro, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>🛏 2 Beds</span>
+                        <span>🚿 2 Baths</span>
+                        <span>📐 1,200 ft²</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 35,000 / month</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Luxury City Apartment">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property 3 -->
+
+            <article class="property-card"
+                data-location="Punakha"
+                data-type="Land"
+                data-purpose="Sale">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1000&q=80"
+                        alt="Land property">
+
+                    <span class="property-status">For Sale</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">Land</span>
+
+                    <h3>Beautiful Development Land</h3>
+
+                    <p class="property-location">
+                        📍 Punakha, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>📐 12,000 ft²</span>
+                        <span>🌳 Open Land</span>
+                        <span>🚗 Road Access</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 8,500,000</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Beautiful Development Land">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property 4 -->
+
+            <article class="property-card"
+                data-location="Phuentsholing"
+                data-type="Commercial"
+                data-purpose="Sale">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=80"
+                        alt="Commercial office">
+
+                    <span class="property-status">For Sale</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">Commercial</span>
+
+                    <h3>Premium Commercial Space</h3>
+
+                    <p class="property-location">
+                        📍 Phuentsholing, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>🏢 3 Floors</span>
+                        <span>🚗 Parking</span>
+                        <span>📐 4,500 ft²</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 32,000,000</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Premium Commercial Space">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property 5 -->
+
+            <article class="property-card"
+                data-location="Thimphu"
+                data-type="Apartment"
+                data-purpose="Sale">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=80"
+                        alt="Apartment">
+
+                    <span class="property-status">For Sale</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">Apartment</span>
+
+                    <h3>Contemporary Apartment</h3>
+
+                    <p class="property-location">
+                        📍 Thimphu, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>🛏 3 Beds</span>
+                        <span>🚿 2 Baths</span>
+                        <span>📐 1,500 ft²</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 11,800,000</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Contemporary Apartment">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Property 6 -->
+
+            <article class="property-card"
+                data-location="Paro"
+                data-type="House"
+                data-purpose="Sale">
+
+                <div class="property-image">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=80"
+                        alt="Luxury home">
+
+                    <span class="property-status">For Sale</span>
+
+                    <button class="favorite-button" aria-label="Favorite property">
+                        ♡
+                    </button>
+
+                </div>
+
+                <div class="property-info">
+
+                    <span class="property-type">House</span>
+
+                    <h3>Mountain View Family Home</h3>
+
+                    <p class="property-location">
+                        📍 Paro, Bhutan
+                    </p>
+
+                    <div class="property-features">
+
+                        <span>🛏 5 Beds</span>
+                        <span>🚿 4 Baths</span>
+                        <span>📐 3,200 ft²</span>
+
+                    </div>
+
+                    <div class="property-bottom">
+
+                        <strong>Nu. 24,500,000</strong>
+
+                        <button
+                            class="details-button"
+                            data-property="Mountain View Family Home">
+                            View Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="center-button">
+
+            <button class="outline-button" id="loadMoreButton">
+                View All Properties
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="section services-section" id="services">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <span class="section-tag">WHAT WE DO</span>
+
+            <h2>
+                Our Services
+            </h2>
+
+            <p>
+                Everything you need to make your property journey simple,
+                secure and successful.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🏠
+                </div>
+
+                <h3>Buy a Property</h3>
+
+                <p>
+                    Find your ideal home or investment property
+                    from our growing collection.
+                </p>
+
+                <a href="#properties">
+                    Explore Properties →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    🔑
+                </div>
+
+                <h3>Rent a Property</h3>
+
+                <p>
+                    Discover comfortable apartments, houses and
+                    commercial spaces for rent.
+                </p>
+
+                <a href="#properties">
+                    Find Rentals →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    💼
+                </div>
+
+                <h3>Sell Your Property</h3>
+
+                <p>
+                    Let our experienced team help you market and
+                    sell your property efficiently.
+                </p>
+
+                <a href="#contact">
+                    List Your Property →
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    📊
+                </div>
+
+                <h3>Property Consultation</h3>
+
+                <p>
+                    Get professional guidance for your next
+                    real-estate investment.
+                </p>
+
+                <a href="#contact">
+                    Talk to Us →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<
+
+<section class="section about-section" id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <img
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80"
+                alt="Real estate property">
+
+            <div class="experience-box">
+
+                <strong>8+</strong>
+                <span>Years of<br>Experience</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-content">
+
+            <span class="section-tag">
+                ABOUT KARDELS
+            </span>
+
+            <h2>
+                Making Property
+                <span>Simple.</span>
+            </h2>
+
+            <p>
+                Kardels Properties is a modern real-estate company
+                focused on helping people find properties that match
+                their lifestyle, goals and budget.
+            </p>
+
+            <p>
+                Whether you are looking for your first home,
+                an investment opportunity, commercial space or land,
+                our team is here to guide you throughout the process.
+            </p>
+
+
+            <div class="about-list">
+
+                <div>
+                    <span>✓</span>
+                    <p>Trusted Property Listings</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Professional Guidance</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Transparent Service</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Customer Focused</p>
+                </div>
+
+            </div>
+
+
+            <a href="#contact" class="primary-button">
+                Contact Our Team
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="section testimonials-section">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <span class="section-tag">
+                CLIENT STORIES
+            </span>
+
+            <h2>
+                What Our Clients Say
+            </h2>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Kardels Properties made finding our new home
+                    incredibly easy. Their team was helpful from
+                    beginning to end."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        P
+                    </div>
+
+                    <div>
+                        <strong>Pema Dorji</strong>
+                        <span>Home Buyer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "Very professional service. They understood what
+                    I was looking for and showed me properties that
+                    actually matched my needs."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        S
+                    </div>
+
+                    <div>
+                        <strong>Sonam Wangchuk</strong>
+                        <span>Property Investor</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card">
+
+                <div class="stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    "I was able to rent my commercial property quickly.
+                    The entire process was straightforward and
+                    professional."
+                </p>
+
+                <div class="client">
+
+                    <div class="client-avatar">
+                        T
+                    </div>
+
+                    <div>
+                        <strong>Tashi Choden</strong>
+                        <span>Property Owner</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="section contact-section" id="contact">
+
+    <div class="container contact-grid">
+
+        <div class="contact-info">
+
+            <span class="section-tag">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's Find Your
+                <span>Next Property.</span>
+            </h2>
+
+            <p>
+                Have a question, want to view a property, or want
+                to list your property? Send us a message.
+            </p>
+
+
+            <div class="contact-details">
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <strong>Our Office</strong>
+                        <span>Thimphu, Bhutan</span>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+                        <strong>Phone</strong>
+                        <span>+975 17 000 000</span>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <div class="contact-icon">
+                        ✉
+                    </div>
+
+                    <div>
+                        <strong>Email</strong>
+                        <span>info@kardelsproperties.com</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="you@example.com"
+                        required>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="+975 XXXXXXXX">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="interest">
+                    I'm Interested In
+                </label>
+
+                <select id="interest">
+
+                    <option value="">
+                        Select an option
+                    </option>
+
+                    <option>
+                        Buying a Property
+                    </option>
+
+                    <option>
+                        Renting a Property
+                    </option>
+
+                    <option>
+                        Selling a Property
+                    </option>
+
+                    <option>
+                        Property Consultation
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Tell us what you are looking for..."
+                    required></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="primary-button form-button">
+
+                Send Message
+
+            </button>
+
+            <p class="form-message" id="formMessage"></p>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+
+                <span class="logo-icon">
+                    K
+                </span>
+
+                <span>
+                    Kardels<span class="logo-highlight">
+                        Properties
+                    </span>
+                </span>
+
+            </a>
+
+            <p>
+                Helping you find the right property,
+                in the right place, at the right time.
+            </p>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="WhatsApp">◉</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Properties</h4>
+
+            <a href="#properties">Houses</a>
+            <a href="#properties">Apartments</a>
+            <a href="#properties">Land</a>
+            <a href="#properties">Commercial</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <span>Thimphu, Bhutan</span>
+            <span>+975 17 000 000</span>
+            <span>info@kardelsproperties.com</span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © <span id="currentYear"></span>
+                Kardels Properties. All Rights Reserved.
+            </p>
+
+            <div>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+<div class="modal" id="propertyModal">
+
+    <div class="modal-overlay"></div>
+
+    <div class="modal-content">
+
+        <button class="modal-close" id="modalClose">
+            ×
+        </button>
+
+        <span class="section-tag">
+            PROPERTY DETAILS
+        </span>
+
+        <h2 id="modalTitle">
+            Property
+        </h2>
+
+        <p id="modalDescription">
+            Property details will appear here.
+        </p>
+
+        <div class="modal-features">
+
+            <div>
+                <strong>Location</strong>
+                <span id="modalLocation">-</span>
+            </div>
+
+            <div>
+                <strong>Type</strong>
+                <span id="modalType">-</span>
+            </div>
+
+            <div>
+                <strong>Price</strong>
+                <span id="modalPrice">-</span>
+            </div>
+
+        </div>
+
+        <a href="#contact"
+           class="primary-button modal-contact"
+           id="modalContact">
+
+            Contact About Property
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
